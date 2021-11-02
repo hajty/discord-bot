@@ -1,0 +1,26 @@
+{
+  "name": "walecbot",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "express": "4.17.1",
+    "mongodb": "^3.5.9",
+    "simple-node-logger": "^18.12.24",
+    "valid-url": "^1.0.9"
+  }
+}
